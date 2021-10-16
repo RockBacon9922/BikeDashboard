@@ -11,4 +11,4 @@ jobs:
       - uses: actions/setup-node@v2
       - run: npm install balena-cli -g --production --unsafe-perm
       - run: balena login --token ${{secrets.BALENA_API_TOKEN}}
-      - run: balena push ${{secrets.BALENA_APPLICATION_NAME}}
+      - run: balena push -d ${{secrets.BALENA_APPLICATION_NAME}}

@@ -1,0 +1,19 @@
+version: "2"
+
+volumes:
+  backend:
+services:
+  backend:
+    network_mode: host
+    build: .
+    restart: always
+    volumes:
+      - "backend:/data"
+    privileged: true
+  browser:
+    network_mode: host
+    image: balenablocks/browser
+    depends_on:
+      - backend
+    restart: always
+    privileged: true

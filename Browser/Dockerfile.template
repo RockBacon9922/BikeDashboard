@@ -1,0 +1,3 @@
+FROM balenablocks/browser
+
+CMD ["export DISPLAY=:1"]
