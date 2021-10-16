@@ -16,4 +16,3 @@ jobs:
         with:
           api-token: ${{secrets.BALENA_API_TOKEN}}
           application-name: ${{secrets.BALENA_APPLICATION_NAME}}
-        run: echo Done👍✅
