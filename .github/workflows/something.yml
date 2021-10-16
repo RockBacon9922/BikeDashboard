@@ -9,6 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1.1.0
+        with:
+          node-version: 12
       - run: npm install balena-cli -g --production --unsafe-perm
       - run: balena login --token ${{secrets.BALENA_API_TOKEN}}
       - run: balena push ${{secrets.BALENA_APPLICATION_NAME}}
