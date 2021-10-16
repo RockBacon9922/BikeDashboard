@@ -1,13 +1,11 @@
-node_modules/
-.expo/
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
+# Temporary files.
+.#*
 
-# macOS
+# Log files.
+*.log
+
+# Don't push node_modules - we want the build server to install these.
+node_modules/
+
+#OSX hidden metadata file
 .DS_Store
