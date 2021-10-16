@@ -13,8 +13,6 @@ services:
       - "backend:/data"
     privileged: true
   browser:
-    depends_on:
-      - backend
     network_mode: host
     image: balenablocks/browser
     depends_on:
