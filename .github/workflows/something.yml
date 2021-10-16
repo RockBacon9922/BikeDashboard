@@ -2,9 +2,7 @@ name: BalenaCloud Push
 
 on:
   push:
-    # Only run workflow for pushes to specific branches
-    branches:
-      - master
+    branches: [ master ]
 
 jobs:
   balena-push:
