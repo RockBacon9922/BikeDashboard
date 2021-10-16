@@ -1,29 +1,16 @@
 {
-  "name": "simple-server-node",
-  "version": "1.1.0",
-  "description": "A simple Expressjs Web server on balena",
-  "main": "server.js",
+  "name": "bikos",
+  "version": "0.0.0",
   "scripts": {
-    "start": "node server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/balena-io-projects/simple-server-node.git"
-  },
-  "keywords": [
-    "webserver",
-    "nodejs",
-    "expressjs"
-  ],
-  "author": "Shaun Mulligan <shaun@balena.io>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/balena-io-projects/simple-server-node/issues"
-  },
-  "homepage": "https://github.com/balena-io-projects/simple-server-node#readme",
   "dependencies": {
-    "ejs": "~3.1.6",
-    "express": "~4.17.1",
-    "serve-favicon": "~2.5.0"
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.4"
   }
 }

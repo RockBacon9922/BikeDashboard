@@ -9,3 +9,8 @@ node_modules/
 
 #OSX hidden metadata file
 .DS_Store
+
+#from vite
+dist
+dist-ssr
+*.local
