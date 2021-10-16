@@ -1,3 +1,4 @@
-- name: Balena Push
+- name: BalenaPush
   uses: theaccordance/balena-push@v1.0.0
-  
+
+
