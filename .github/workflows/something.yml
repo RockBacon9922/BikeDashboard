@@ -1,7 +1,8 @@
 name: BalenaCloud Push
 
 on:
-  [push]
+  push:
+    branches: [ master ]
 
 jobs:
   balena-push:
