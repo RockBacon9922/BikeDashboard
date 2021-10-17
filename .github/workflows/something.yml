@@ -1,7 +1,8 @@
 name: BalenaCloud Push
 
 on:
-  [push]
+  pull:
+    [ master ]
 
 jobs:
   balena-push:
