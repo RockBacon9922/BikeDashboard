@@ -7,3 +7,5 @@ Using Balena to host balena blocks browser and our backend application
 Using vue as frontend
 
 Undecided about backend of yet
+
+Currently runs develpoment server on pi for theory of concept
