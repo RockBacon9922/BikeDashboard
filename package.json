@@ -1,7 +1,7 @@
 {
-  "name": "framer-motion-gesture-animations",
+  "name": "BikeOS",
   "version": "1.0.0",
-  "description": "A live, editable example of the Framer Motion API",
+  "description": "Bike Operating System",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
@@ -21,10 +21,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "next start",
+    "build": "next build"
   },
   "browserslist": [
     ">0.2%",
