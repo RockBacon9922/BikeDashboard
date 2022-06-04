@@ -65,3 +65,4 @@ yarn-error.log*
 
 # vercel
 .vercel
+balena-cli/
